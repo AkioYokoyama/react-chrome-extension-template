@@ -21,8 +21,12 @@
 │   ├── options.html
 │   └── popup.html
 ├── src
-│   ├── options.js
-│   └── popup.js
+│   ├── options
+│   │   ├── options.js
+│   │   └── options.scss
+│   └── popup
+│       ├── popup.js
+│       └── popup.scss
 └── webpack.config.js
 ```
 
