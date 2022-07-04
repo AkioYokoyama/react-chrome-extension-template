@@ -22,10 +22,10 @@
 │   └── popup.html
 ├── src
 │   ├── options
-│   │   ├── options.js
+│   │   ├── Options.tsx
 │   │   └── options.scss
 │   └── popup
-│       ├── popup.js
+│       ├── Popup.tsx
 │       └── popup.scss
 └── webpack.config.js
 ```
