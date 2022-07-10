@@ -2,11 +2,12 @@ import * as React from 'react';
 import { FC } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import './popup.scss'
+import H1 from './H1'
 
 const Popup: FC = () => {
   return (
     <section className="popup">
-      <h1>Google Chrome Extension Popup</h1>
+      <H1 />
       <p className="popup__description">This is Chrome Extension Popup Sample</p>
     </section>
   );
