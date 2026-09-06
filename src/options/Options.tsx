@@ -1,13 +1,11 @@
-import * as React from 'react';
-import { FC } from 'react';
 import * as ReactDOM from 'react-dom/client';
-import './options.scss'
+import './index.css'
 
-const Options: FC = () => {
+function Options() {
   return (
-    <section className="options">
+    <section className="w-52">
       <h1>Hello Options</h1>
-      <p className="options__description">This is Google Extension Option Sample</p>
+      <p className="text-blur-500">This is Google Extension Option Sample</p>
     </section>
   );
 }
